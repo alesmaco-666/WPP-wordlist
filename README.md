@@ -14,3 +14,9 @@ La Herramienta es con fines eticos y se recomienda discreción y responsabilidad
 y viene ccon soporte de lenguaje español y ingles
 
 ¡QUE TE SIRVA!
+
+Instalación
+
+git clone https://github.com/alesmaco-666/WPP-wordlist.git
+cd 'WPP wordlist'
+python3 main.py
