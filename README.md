@@ -18,5 +18,7 @@ y viene ccon soporte de lenguaje español y ingles
 Instalación
 
 git clone https://github.com/alesmaco-666/WPP-wordlist.git
+
 cd 'WPP wordlist'
+
 python3 main.py
