@@ -11,5 +11,6 @@ tambien puedes elegir cuantas contraseñas quieres en la wordlist aunque no tien
 así que recomendable no excederse
 
 La Herramienta es con fines eticos y se recomienda discreción y responsabilidad en usarla
+y viene ccon soporte de lenguaje español y ingles
 
 ¡QUE TE SIRVA!
