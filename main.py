@@ -12,9 +12,9 @@ print("""
                                                                                                                                
 """                                                                                                                  
 )
-idioma = str(input("Language/lenguaje (español/english): "))
+idioma = str(input("Language/lenguaje (es[español]/en[english]): "))
 
-if idioma == "español":
+if idioma == "es":
 
     longitud = int(input("cuantas contraseñas quieres en la wordlist: "))
     nombre = str(input("Nombre de la wordlist: "))
@@ -147,7 +147,7 @@ if idioma == "español":
 
     print(f"Wordlist guardada como wordlist_{nombre}.txt")
 
-elif idioma == "english":
+elif idioma == "en":
     length = int(input("How many passwords do you want in the wordlist: "))
     name = str(input("Name of the wordlist: "))
 
