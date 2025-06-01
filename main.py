@@ -1,15 +1,13 @@
 import random
 
 print("""
- ___       __   ________  ________        ___       __   ________  ________  ________  ___       ___  ________  _________       
-|\  \     |\  \|\   __  \|\   __  \      |\  \     |\  \|\   __  \|\   __  \|\   ___ \|\  \     |\  \|\   ____\|\___   ___\     
-\ \  \    \ \  \ \  \|\  \ \  \|\  \     \ \  \    \ \  \ \  \|\  \ \  \|\  \ \  \_|\ \ \  \    \ \  \ \  \___|\|___ \  \_|     
- \ \  \  __\ \  \ \   ____\ \   ____\     \ \  \  __\ \  \ \  \\\  \ \   _  _\ \  \ \\ \ \  \    \ \  \ \_____  \   \ \  \      
-  \ \  \|\__\_\  \ \  \___|\ \  \___|      \ \  \|\__\_\  \ \  \\\  \ \  \\  \\ \  \_\\ \ \  \____\ \  \|____|\  \   \ \  \     
-   \ \____________\ \__\    \ \__\          \ \____________\ \_______\ \__\\ _\\ \_______\ \_______\ \__\____\_\  \   \ \__\    
-    \|____________|\|__|     \|__|           \|____________|\|_______|\|__|\|__|\|_______|\|_______|\|__|\_________\   \|__|  by alesmaco-666
-                                                                                                        \|_________|            
-                                                                                                                               
+__          __ _____   _____                               _  _  _       _
+\ \        / /|  __ \ |  __ \                             | || |(_)     | |
+ \ \  /\  / / | |__) || |__) | __      __  ___   _ __   __| || | _  ___ | |_
+  \ \/  \/ /  |  ___/ |  ___/  \ \ /\ / / / _ \ | '__| / _` || || |/ __|| __|
+   \  /\  /   | |     | |       \ V  V / | (_) || |   | (_| || || |\__ \| |_
+    \/  \/    |_|     |_|        \_/\_/   \___/ |_|    \__,_||_||_||___/ \__| alesmaco-666
+
 """                                                                                                                  
 )
 idioma = str(input("Language/lenguaje (es[español]/en[english]): "))
@@ -18,10 +16,9 @@ if idioma == "es":
 
     longitud = int(input("cuantas contraseñas quieres en la wordlist: "))
     nombre = str(input("Nombre de la wordlist: "))
-
     numeroAleatorio = str(input("Numeros aleatorio si/no: "))
     Name1delavictima = str(input("Primer Nombre de la victima: "))
-    Name2delavictima = str(input("Segundo Nombre de la victima:"))
+    Name2delavictima = str(input("Segundo Nombre de la victima: "))
     apellido1 = str(input("Primer Apellido de la victima: "))
     apellido2 = str(input("Segundo Apellido de la victima: "))
     Dia = str(input("Dia de nacimiento de la victima (DD): "))
