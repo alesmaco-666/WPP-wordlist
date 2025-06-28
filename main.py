@@ -1,6 +1,8 @@
 import random
+from colorama import Fore, init
+init()
 
-print("""
+print(Fore.RED + """
 __          __ _____   _____                               _  _  _       _
 \ \        / /|  __ \ |  __ \                             | || |(_)     | |
  \ \  /\  / / | |__) || |__) | __      __  ___   _ __   __| || | _  ___ | |_
@@ -10,7 +12,7 @@ __          __ _____   _____                               _  _  _       _
 
 """                                                                                                                  
 )
-idioma = str(input("Language/lenguaje (es[español]/en[english]): "))
+idioma = str(input(Fore.YELLOW + "Language/lenguaje (es[español]/en[english]): "))
 
 if idioma == "es":
 
