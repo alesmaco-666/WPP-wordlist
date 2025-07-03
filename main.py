@@ -2,7 +2,7 @@ import random
 from colorama import Fore, init
 init()
 
-print(Fore.RED + """
+print(Fore.CYAN + """
 __          __ _____   _____                               _  _  _       _
 \ \        / /|  __ \ |  __ \                             | || |(_)     | |
  \ \  /\  / / | |__) || |__) | __      __  ___   _ __   __| || | _  ___ | |_
@@ -12,29 +12,29 @@ __          __ _____   _____                               _  _  _       _
 
 """                                                                                                                  
 )
-idioma = str(input(Fore.YELLOW + "Language/lenguaje (es[español]/en[english]): "))
+idioma = str(input('\033[1m' + Fore.WHITE + "Language/lenguaje (es[español]/en[english]): " + '\033[0m'))
 
 if idioma == "es":
 
-    longitud = int(input("cuantas contraseñas quieres en la wordlist: "))
-    nombre = str(input("Nombre de la wordlist: "))
-    numeroAleatorio = str(input("Numeros aleatorio si/no: "))
-    Name1delavictima = str(input("Primer Nombre de la victima: "))
-    Name2delavictima = str(input("Segundo Nombre de la victima: "))
-    apellido1 = str(input("Primer Apellido de la victima: "))
-    apellido2 = str(input("Segundo Apellido de la victima: "))
-    Dia = str(input("Dia de nacimiento de la victima (DD): "))
-    Mes = str(input("Mes de nacimiento de la victima (MM): "))
-    Año = str(input("Año de nacimiento de la victima (YYYY): "))
-    Name1delpadre = str(input("Primer Nombre del padre de la victima: "))
-    Name2delpadre = str(input("Segundo Nombre del padre de la victima: "))
-    Name1delamadre = str(input("Primer Nombre de la madre de la victima: "))
-    Name2delamadre = str(input("Segundo Nombre de la madre de la victima: "))
-    Name1delhermano = str(input("Primer Nombre del hermano de la victima: "))
-    Name2delhermano = str(input("Segundo Nombre del hermano de la victima: "))
-    Name1delahermana = str(input("Primer Nombre de la hermana de la victima: "))
-    Name2delahermana = str(input("Segundo Nombre de la hermana de la victima: "))
-    Namedelamascota = str(input("Nombre de la mascota de la victima: "))
+    longitud = int(input('\033[1m' + Fore.WHITE + "cuantas contraseñas quieres en la wordlist: " + '\033[0m'))
+    nombre = str(input('\033[1m' + Fore.WHITE + "Nombre de la wordlist: " + '\033[0m'))
+    numeroAleatorio = str(input('\033[1m' + Fore.WHITE + "Numeros aleatorio si/no: " + '\033[0m'))
+    Name1delavictima = str(input('\033[1m' + Fore.WHITE + "Primer Nombre de la victima: " + '\033[0m'))
+    Name2delavictima = str(input('\033[1m' + Fore.WHITE + "Segundo Nombre de la victima: " + '\033[0m'))
+    apellido1 = str(input('\033[1m' + Fore.WHITE + "Primer Apellido de la victima: " + '\033[0m'))
+    apellido2 = str(input('\033[1m' + Fore.WHITE + "Segundo Apellido de la victima: " + '\033[0m'))
+    Dia = str(input('\033[1m' + Fore.WHITE + "Dia de nacimiento de la victima (DD): " + '\033[0m'))
+    Mes = str(input('\033[1m' + Fore.WHITE + "Mes de nacimiento de la victima (MM): " + '\033[0m'))
+    Año = str(input('\033[1m' + Fore.WHITE + "Año de nacimiento de la victima (YYYY): " + '\033[0m'))
+    Name1delpadre = str(input('\033[1m' + Fore.WHITE + "Primer Nombre del padre de la victima: " + '\033[0m'))
+    Name2delpadre = str(input('\033[1m' + Fore.WHITE + "Segundo Nombre del padre de la victima: " + '\033[0m'))
+    Name1delamadre = str(input('\033[1m' + Fore.WHITE + "Primer Nombre de la madre de la victima: " + '\033[0m'))
+    Name2delamadre = str(input('\033[1m' + Fore.WHITE + "Segundo Nombre de la madre de la victima: " + '\033[0m'))
+    Name1delhermano = str(input('\033[1m' + Fore.WHITE + "Primer Nombre del hermano de la victima: " + '\033[0m'))
+    Name2delhermano = str(input('\033[1m' + Fore.WHITE + "Segundo Nombre del hermano de la victima: " + '\033[0m'))
+    Name1delahermana = str(input('\033[1m' + Fore.WHITE + "Primer Nombre de la hermana de la victima: " + '\033[0m'))
+    Name2delahermana = str(input('\033[1m' + Fore.WHITE + "Segundo Nombre de la hermana de la victima: " + '\033[0m'))
+    Namedelamascota = str(input('\033[1m' + Fore.WHITE + "Nombre de la mascota de la victima: " + '\033[0m'))
     contraseñas = []
 
     for _ in range(longitud):
@@ -146,27 +146,28 @@ if idioma == "es":
 
     print(f"Wordlist guardada como wordlist_{nombre}.txt")
 
+# ...existing code...
 elif idioma == "en":
-    length = int(input("How many passwords do you want in the wordlist: "))
-    name = str(input("Name of the wordlist: "))
+    length = int(input('\033[1m' + Fore.WHITE + "How many passwords do you want in the wordlist: " + '\033[0m'))
+    name = str(input('\033[1m' + Fore.WHITE + "Name of the wordlist: " + '\033[0m'))
 
-    randomNumbers = str(input("Random numbers? (yes/no): "))
-    VictimFirstName = str(input("Victim's first name: "))
-    VictimMiddleName = str(input("Victim's middle name: "))
-    Surname1 = str(input("Victim's first surname: "))
-    Surname2 = str(input("Victim's second surname: "))
-    Day = str(input("Victim's Birth Day (DD): "))
-    Month = str(input("Victim's Birth Month (MM): "))
-    Year = str(input("Victim's Birth Year (YYYY): "))
-    FatherFirstName = str(input("Victim's father's first name: "))
-    FatherSecondName = str(input("Victim's father's second name: "))
-    MotherFirstName = str(input("Victim's mother's first name: "))
-    MotherSecondName = str(input("Victim's mother's second name: "))
-    BrotherFirstName = str(input("Victim's brother's first name: "))
-    BrotherSecondName = str(input("Victim's brother's second name: "))
-    SisterFirstName = str(input("Victim's sister's first name: "))
-    SisterSecondName = str(input("Victim's sister's second name: "))
-    PetName = str(input("Victim's pet's name: "))
+    randomNumbers = str(input('\033[1m' + Fore.WHITE + "Random numbers? (yes/no): " + '\033[0m'))
+    VictimFirstName = str(input('\033[1m' + Fore.WHITE + "Victim's first name: " + '\033[0m'))
+    VictimMiddleName = str(input('\033[1m' + Fore.WHITE + "Victim's middle name: " + '\033[0m'))
+    Surname1 = str(input('\033[1m' + Fore.WHITE + "Victim's first surname: " + '\033[0m'))
+    Surname2 = str(input('\033[1m' + Fore.WHITE + "Victim's second surname: " + '\033[0m'))
+    Day = str(input('\033[1m' + Fore.WHITE + "Victim's Birth Day (DD): " + '\033[0m'))
+    Month = str(input('\033[1m' + Fore.WHITE + "Victim's Birth Month (MM): " + '\033[0m'))
+    Year = str(input('\033[1m' + Fore.WHITE + "Victim's Birth Year (YYYY): " + '\033[0m'))
+    FatherFirstName = str(input('\033[1m' + Fore.WHITE + "Victim's father's first name: " + '\033[0m'))
+    FatherSecondName = str(input('\033[1m' + Fore.WHITE + "Victim's father's second name: " + '\033[0m'))
+    MotherFirstName = str(input('\033[1m' + Fore.WHITE + "Victim's mother's first name: " + '\033[0m'))
+    MotherSecondName = str(input('\033[1m' + Fore.WHITE + "Victim's mother's second name: " + '\033[0m'))
+    BrotherFirstName = str(input('\033[1m' + Fore.WHITE + "Victim's brother's first name: " + '\033[0m'))
+    BrotherSecondName = str(input('\033[1m' + Fore.WHITE + "Victim's brother's second name: " + '\033[0m'))
+    SisterFirstName = str(input('\033[1m' + Fore.WHITE + "Victim's sister's first name: " + '\033[0m'))
+    SisterSecondName = str(input('\033[1m' + Fore.WHITE + "Victim's sister's second name: " + '\033[0m'))
+    PetName = str(input('\033[1m' + Fore.WHITE + "Victim's pet's name: " + '\033[0m'))
     passwords = []
 
     for _ in range(length):
