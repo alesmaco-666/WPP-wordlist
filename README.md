@@ -25,5 +25,5 @@ python3 main.py
 ```
 <span>![</span><span>Ejemplo Visual De La Herramienta: </span><span>]</span>
 <span>(</span>
-<span>https://github.com/alesmaco-666/WPP-wordlist/blob/main/tool.png</span><span>)</span>
+<span>https://raw.githubusercontent.com/alesmaco-666/WPP-wordlist/blob/main/tool.png</span><span>)</span>
  
