@@ -25,5 +25,5 @@ python3 main.py
 ```
 Ejemplo Visual:
 
-(https://github.com/alesmaco-666/WPP-wordlist/blob/main/tool.png)
+![Image text](https://github.com/alesmaco-666/WPP-wordlist/blob/main/tool.png)
  
